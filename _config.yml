@@ -9,9 +9,9 @@ baseurl:
 
 # Website info
 title: ReSpace
-description: The professional publishing platform
+description: 보고 배운 것들을 기록합니다
 cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
+# logo: assets/images/blog-icon.png
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
 production_url: https://godndas2.github.io/
@@ -31,7 +31,7 @@ disqus: False
 disqus_shortname: ReSpace # replace with your disqus username
 
 # Google Analytics
-google_analytics: UA-69281367-1 # replace with your GA tracking identifier
+google_analytics: UA-131809034-1 # replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title
