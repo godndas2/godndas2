@@ -15,8 +15,8 @@ cover: assets/images/blog-cover.jpg
 # logo: assets/images/blog-logo.jpg
 logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
-production_url:  https://godndas2.github.io/
-source_url:  https://github.com/godndas2/godndas2.github.io
+production_url: https://godndas2.github.io/
+source_url: https://github.com/godndas2/godndas2.github.io
 CNAME: #add cname for website to be created
 
 # Social info
@@ -74,8 +74,8 @@ repo: godndas2.github.io
 branch: master
 relative_source: ../jasper2/
 destination: ../jasper2-pages/
-production_url:  https://godndas2.github.io/
-source_url:  https://github.com/godndas2/godndas2.github.io
+production_url: https://godndas2.github.io/
+source_url: https://github.com/godndas2/godndas2.github.io
 
 exclude:
   - assets/css
