@@ -71,8 +71,8 @@ lsi: False
 username: godndas2
 repo: godndas2.github.io
 branch: master
-relative_source: ../godndas2/
-destination: ../godndas2-pages/
+relative_source: ../godndas2.github.io/
+destination: ../godndas2.github.io-pages/
 production_url:  https://godndas2.github.io/
 source_url:  https://github.com/godndas2/godndas2.github.io/
 
