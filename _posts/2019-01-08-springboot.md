@@ -173,4 +173,4 @@ spring-boot-starter-tomcat을 자동으로 가져오는 spring-boot-startter-web
 <br>
 spring-boot-starter-tomcat을 제외하고 spring-boot-starter-jetty를 포함시켜주면 된다.
 
-<p><mark>Spring Boot is love.</mark></p>
+<p><mark>Spring Boot</mark></p>
