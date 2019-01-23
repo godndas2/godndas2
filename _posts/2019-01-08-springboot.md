@@ -7,11 +7,11 @@ title: Welcome to ReSpace
 date: 2019-01-08 10:30:00
 tags: [daily-rec]
 class: post-template
-subclass: 'post tag-daily-rec'
+subclass: 'post daily-rec'
 author: ReSpace
 ---
 
-**2019-01-08 기록**
+**Spring Boot를 사용해보자**
 
 주니어 개발자로서 신기술에 대한 호기심이 항상 넘쳐난다.
 Spring Boot를 신기술이라 칭하기는 애매하지만 내가 모르는 모든 기술은 신기술이니까(...)
