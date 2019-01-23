@@ -29,8 +29,9 @@ Spring Boot를 신기술이라 칭하기는 애매하지만 내가 모르는 모
 
 **Spring의 Pom.xml**
 
-```
-<?xml version="1.0" encoding="UTF-8"?>
+{% raw %}
+<pre><code class="nohighlight">
+    <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -109,12 +110,15 @@ http://maven.apache.org/maven-v4_0_0.xsd">
         </dependency>
     </dependencies>
 </project>
-```
+</code></pre>
+{% endraw %}
+
 
 ### Spring Boot의 Pom.xml
 
-```
-<?xml version="1.0" encoding="UTF-8"?>
+{% raw %}
+<pre><code class="nohighlight">
+   <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
@@ -161,7 +165,9 @@ http://maven.apache.org/maven-v4_0_0.xsd">
         </dependency>
     </dependencies>
 </project>
-```
+</code></pre>
+{% endraw %}
+
 
 두 개의 pom.xml을 비교해보면 Spring Boot 코드의 양이 한 눈에 봐도 적다.
 
@@ -173,4 +179,4 @@ spring-boot-starter-tomcat을 자동으로 가져오는 spring-boot-startter-web
 <br>
 spring-boot-starter-tomcat을 제외하고 spring-boot-starter-jetty를 포함시켜주면 된다.
  
-<p><mark>Spring Boot</mark></p>
+<p><mark>To be continued...</mark></p>
