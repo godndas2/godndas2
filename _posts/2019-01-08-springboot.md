@@ -7,7 +7,7 @@ title: Welcome to ReSpace
 date: 2019-01-08 10:30:00
 tags: [daily-rec]
 class: post-template
-subclass: 'post daily-rec'
+subclass: 'post tag-daily-rec'
 author: ReSpace
 ---
 
