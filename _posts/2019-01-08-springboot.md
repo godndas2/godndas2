@@ -29,7 +29,7 @@ Spring Boot를 신기술이라 칭하기는 애매하지만 내가 모르는 모
 
 **Spring의 Pom.xml**
 
-```html
+```
     <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -116,7 +116,7 @@ http://maven.apache.org/maven-v4_0_0.xsd">
 
 ### Spring Boot의 Pom.xml
 
-```html
+```
    <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
