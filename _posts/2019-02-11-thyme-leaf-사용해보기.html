@@ -32,7 +32,7 @@ author: ReSpace
 {% raw %}
 <pre>
     <code class="highlight">
-<xmp style="font-size: 1.4rem">
+<xmp>
     <!-- Thymeleaf  -->
     <p th:text="${username}">name</p> 
 </xmp>
@@ -43,7 +43,7 @@ author: ReSpace
 {% raw %}
 <pre>
     <code class="highlight">
-<xmp style="font-size: 1.4rem">
+<xmp>
     <!-- HTML 출력 결과 -->
     <p>ReSpace</p>
 </xmp>
@@ -56,7 +56,7 @@ author: ReSpace
 {% raw %}
 <pre>
     <code class="highlight">
-<xmp style="font-size: 1.4rem">
+<xmp>
     <p th:utext="#{home.welcome}">Welcome to our grocery store!</p>
     This will output our message just like we wanted it:
     <p>Welcome to our <b>fantastic</b> grocery store!</p>
@@ -71,7 +71,7 @@ author: ReSpace
 {% raw %}
 <pre>
     <code class="highlight">
-<xmp style="font-size: 1.4rem">
+<xmp>
     <!-- Thymeleaf -->
     <p th:inline="text">Hello, [[${session.user.name}]]!</p>
 </xmp>
@@ -82,7 +82,7 @@ author: ReSpace
 {% raw %}
 <pre>
     <code class="highlight">
-<xmp style="font-size: 1.4rem">
+<xmp>
     <!-- HTML 출력 결과 -->
     <p>Hello, ReSpace</p>
 </xmp>
@@ -96,7 +96,7 @@ author: ReSpace
 {% raw %}
 <pre>
     <code class="highlight">
-<xmp style="font-size: 1.4rem">
+<xmp>
     <!-- Thymeleaf -->
     <p th:text="'Hello, ' + ${username}"></p>
 </xmp> 
@@ -107,7 +107,7 @@ author: ReSpace
 {% raw %}
 <pre>
     <code class="highlight">
-<xmp style="font-size: 1.4rem">
+<xmp>
     <!-- HTML 출력 결과 -->
     <p>Hello, ReSpace</p>
 </xmp>
@@ -121,7 +121,7 @@ author: ReSpace
 {% raw %}
 <pre>
     <code class="highlight">
-<xmp style="font-size: 1.4rem">
+<xmp>
     <!-- Thymeleaf -->
     <p th:text="|Hello, ${username}|"></p>
 </xmp> 
@@ -132,7 +132,7 @@ author: ReSpace
 {% raw %}
 <pre>
     <code class="highlight">
-<xmp style="font-size: 1.4rem">
+<xmp>
     <!-- HTML 출력 결과 -->
     <p>Hello, ReSpace</p>
 </xmp>
@@ -142,3 +142,6 @@ author: ReSpace
 
 <h3>기본값 설정하기</h3>
 <p>기본값을 정의하는 방법으로는 <code>?:</code> 또는 <code>#string</code> 이라는 표현 도구 객체(Expression Utility Object)를 사용한다.</p>
+
+<h1>표현 형식 (Format)</h1>
+... 추후 작성 예정 <code>Thymeleaf Docs</code> : <a href="https://www.thymeleaf.org/doc/tutorials/2.1/usingthymeleaf.html">here</a>
