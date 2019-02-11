@@ -14,25 +14,24 @@ author: ReSpace
 
 <h1>Thymeleaf 사용해보기</h1>
 <h1>- Thymeleaf ?</h1>
-<p>Thymeleaf는 Spring Boot의 view template engine으로서 가장 많이 사용하는 template engine이다.</p>
+<p style="font-size: 100%">Thymeleaf는 Spring Boot의 view template engine으로서 가장 많이 사용하는 <br/>template engine이다.</p>
 <h1>변수</h1>
 <h3>text (th:text)</h3>
 <p>변수 값을 태그의 텍스트로 표시할 때 <code>th:text</code> 속성과 <code>${...}</code> 구문을 사용한다.</p>
 
 {% raw %}
 <pre>
-    <code class="nohighlight">
+    <code class="highlight">
     /* Java */
     String username = "ReSpace";
     model.addAttribute("username", username);
-        
     </code>
 </pre>
 {% endraw %}
 
 {% raw %}
 <pre>
-    <code class="nohighlight">
+    <code class="highlight">
 <xmp>
     <!-- Thymeleaf  -->
     <p th:text="${username}">name</p> 
@@ -43,7 +42,7 @@ author: ReSpace
 
 {% raw %}
 <pre>
-    <code class="nohighlight">
+    <code class="highlight">
 <xmp>
     <!-- HTML 출력 결과 -->
     <p>ReSpace</p>
@@ -56,7 +55,7 @@ author: ReSpace
 
 {% raw %}
 <pre>
-    <code class="nohighlight">
+    <code class="highlight">
 <xmp>
     <p th:utext="#{home.welcome}">Welcome to our grocery store!</p>
     This will output our message just like we wanted it:
@@ -64,7 +63,6 @@ author: ReSpace
 </xmp>
     </code>
 </pre>
-<<<<<<< HEAD
 {% endraw %}
 
 <h3>Text inlining(th:inline)</h3>
@@ -72,7 +70,7 @@ author: ReSpace
 
 {% raw %}
 <pre>
-    <code class="nohighlight">
+    <code class="highlight">
 <xmp>
     <!-- Thymeleaf -->
     <p th:inline="text">Hello, [[${session.user.name}]]!</p>
@@ -83,7 +81,7 @@ author: ReSpace
 
 {% raw %}
 <pre>
-    <code class="nohighlight">
+    <code class="highlight">
 <xmp>
     <!-- HTML 출력 결과 -->
     <p>Hello, ReSpace</p>
@@ -97,7 +95,7 @@ author: ReSpace
  
 {% raw %}
 <pre>
-    <code class="nohighlight">
+    <code class="highlight">
 <xmp>
     <!-- Thymeleaf -->
     <p th:text="'Hello, ' + ${username}"></p>
@@ -108,7 +106,7 @@ author: ReSpace
 
 {% raw %}
 <pre>
-    <code class="nohighlight">
+    <code class="highlight">
 <xmp>
     <!-- HTML 출력 결과 -->
     <p>Hello, ReSpace</p>
